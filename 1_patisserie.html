@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Patisserie</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .main {
+            height: 109vh;
+            width: 100%;
+            background: url(donut2.jpg);
+            background-size: cover;
+            position: relative;
+
+        }
+
+        .navi {
+            height: 100px;
+            width: 100%;
+            text-decoration: none;
+
+        }
+
+        .icon {
+            height: 100px;
+            width: 300px;
+            text-decoration: none;
+            float: left;
+            margin: auto;
+        }
+
+        .logo {
+
+            margin-top: 30px;
+            margin-left: 20px;
+            color: white;
+            font-size: 30px;
+            padding-right: -20px;
+            letter-spacing: 1.5px;
+
+        }
+
+        .logo:hover {
+            transition: .5s ease-in-out;
+            background-color: orange;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+        .menu {
+
+            height: 100px;
+            width: 700px;
+            float: left;
+            text-align: center;
+        }
+
+        ul {
+            display: inline-flex;
+            float: right;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: white;
+        }
+
+        ul li {
+            list-style: none;
+            margin: 10px;
+            padding: 10px;
+
+
+        }
+
+
+        ul li a {
+            font-family: sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+            transition: .4s ease-in-out;
+             text-decoration: none;
+            color: white;
+        }
+
+        ul li a:hover {
+            color: orange;
+            border-top: none;
+            border-left: none;
+            margin-bottom: 10px;
+            border-right: none;
+            border-bottom: 1px solid red;
+           
+        }
+
+        .search {
+            width: 300px;
+
+            float: left;
+            margin-top: 4px;
+            margin-bottom: 3px;
+
+
+        }
+
+        .srch {
+            width: 160px;
+            height: 40px;
+            background: transparent;
+            text-decoration: none;
+            margin-top: 50px;
+            border-right: none;
+            font-size: 16px;
+            padding: 8px;
+            font-weight: bold;
+            border-radius;
+            5px;
+
+        }
+
+        .bts {
+            width: 70px;
+            height: 40px;
+            background-color: orange;
+            border-radius: 4px;
+        }
+
+        .content {
+            height: 200px;
+            width: 400px;
+            float: left;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+
+        .calo {
+            letter-spacing: 1px;
+            color: white;
+            font-size: 16px;
+            margin-top: 40px;
+            font-family: monospace;
+            padding-bottom: 10px;
+        }
+
+        .lowsugar {
+            padding: 10px;
+            color: white;
+            font-size: 30px;
+            color: greenyellow;
+            padding-bottom: 20px;
+            font-family: monospace;
+        }
+
+        .calo_details {
+            color: white;
+            font-size: 15px;
+            letter-spacing: 1px
+        }
+
+        .or_button {
+
+            width: 400px;
+            height: 100px;
+            float: left;
+            margin: auto;
+
+        }
+
+        .menubtn {
+            height: 35px;
+            width: 250px;
+            margin-left: 1px;
+            margin-top: 25px;
+            padding: 10px;
+            border-radius: 8px;
+            color: white;
+            border: 0.5px solid grey;
+            background: transparent;
+            font-weight: bold;
+
+
+        }
+
+        .orderbtn {
+            height: 35px;
+            width: 250px;
+            margin-left: 60px;
+            margin-top: 55px;
+            border: none;
+            border-radius: 8px;
+            background-color: orange;
+            color: black;
+            transition: .5 ease;
+            cursor: pointer;
+
+        }
+
+        .orderbtn a {
+
+            text-decoration: none;
+        }
+
+        .fott{
+            width: 500px;
+            float: left;;
+            
+            margin-top: 440px;
+           
+            
+        }
+        .fott ul{
+            background-color: black;
+            border-radius: 20px;
+            list-style: none;
+            width:450px;
+            display: inline-flex;
+            justify-content: center;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .fott ul li{
+            color: black;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navi">
+            <div class="icon">
+                <h3 class="logo">Pasties&amp;Dessert</h3>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">COOPERATIONS</a></li>
+                    <li><a href="#">OUR VALUES</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Cart<i class="fa-solid fa-cart-arrow-down"></i></a></li>
+                </ul>
+
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="search food">
+                <a href="#"><button class="bts">Search</button> </a>
+
+
+            </div>
+
+        </div>
+        <hr style="height: 1px;border-width:0;color: gray;background-color: grey">
+
+        <div class="content">
+            <p class="calo">Less Calories,fats and Sugar </p>
+            <h2 class="lowsugar">Low Sugar Dessert</h2>
+            <p class="calo_details">We are a company that makes and<br> distributes low-calories pasties .<br>Our main product is made with <br>attention to detail and served <br>in your favourite diners</p>
+            <div class="or_button">
+                <button class="menubtn"><a href="#"> See the menu</a></button>
+                <button class="orderbtn"><a href="#"> Order now</a></button>
+
+            </div>
+
+
+        </div>
+
+        <div class="fott" >
+           <ul>
+               <li><a>Cake</a></li>
+                <li><a>Biscut</a></li>
+                 <li><a>Pastie</a></li>
+                  <li><a>nonSugar</a></li>
+                   <li><a>Sweet</a></li>
+           </ul>
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
